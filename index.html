@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- Hero / Image section -->
+      <figure class="image-container">
+        <img src="/images/icons/ecommerce1.jpg" alt="E-commerce illustration" />
+      </figure>
+
+      <!-- Signup Form Section -->
+      <form class="form-container" aria-labelledby="form-title">
+        <div class="form-sub-container">
+          <h1 id="form-title" class="form-title">Interactive Form</h1>
+          <p class="form-descr">Enter your full details</p>
+        </div>
+
+        <fieldset>
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              placeholder="Daniel Sanu"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              placeholder="example@mail.com"
+            />
+          </div>
+          <div>
+            <label for="phone-number">Phone No</label>
+            <input
+              type="tel"
+              id="phone-number"
+              name="phone-number"
+              autocomplete="tel"
+              placeholder="+234 8012345678"
+            />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              autocomplete="new-password"
+              placeholder="••••••••"
+            />
+          </div>
+        </fieldset>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </main>
+    <script src="app.js" defer></script>
+  </body>
+</html>
